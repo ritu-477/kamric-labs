@@ -7,9 +7,9 @@ const UpcomingProjects = () => {
 
 
     return (
-        <div className="lg:pt-24 md:pt-20 pt-16 lg:pb-[136px] md:pb-20 pb-16">
+        <div className="lg:pt-24 md:pt-20 pt-16 lg:pb-[136px] md:pb-20 pb-16" id='about'>
             <div className="container relative">
-                <div className="absolute lg:top-[-4%] lg:left-[33%] md:top-[-3%] md:left-[28%] left-[15%] top-[-1%]">
+                <div className="absolute lg:top-[-4%] lg:left-[33%] md:top-[-3%] md:left-[28%] left-[15%] top-[-1%] lg:block hidden">
                     <img
                         src="/assets/images/webp/heading-line.webp"
                         alt="line"

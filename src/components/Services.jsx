@@ -6,8 +6,8 @@ import Heading from '../common/Heading'
 const Services = () => {
     return (
         <div>
-            <div className='container relative'>
-                <div className="absolute lg:top-[-3%] lg:left-[33%] md:top-[-3%] md:left-[28%] left-[15%] top-[-1%]">
+            <div className='container relative' id='service'>
+                <div className="absolute lg:top-[-3%] lg:left-[33%] md:top-[-3%] md:left-[28%] left-[15%] top-[-1%] lg:block hidden">
                     <img
                         src="/assets/images/webp/heading-line.webp"
                         alt="line"

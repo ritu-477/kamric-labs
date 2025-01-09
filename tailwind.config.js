@@ -21,13 +21,14 @@ module.exports = {
       },
 
       fontFamily: {
-        'space-grotesk': "'space grotesk,sans-serif",
+        'space-grotesk': "'space Grotesk',sans-serif",
 
       },
 
       fontSize: {
         'custom-xl': "28px",
-        'custom-5xl': "56px",
+        'custom-4xl': "56px",
+        'custom-5xl': "64px",
       },
 
       lineHeight: {
@@ -38,6 +39,7 @@ module.exports = {
 
       backgroundImage: {
         'hero-layer': "url('/public/assets/images/webp/hero-gray-layer.webp')",
+        'project-bg': "url('/public/assets/images/webp/project-bg.webp')",
       },
     },
   },

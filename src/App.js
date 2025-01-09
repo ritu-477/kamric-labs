@@ -1,8 +1,11 @@
 import './App.css';
+import BackToTop from './common/BackToTop';
 import Header from './components/Header';
 import Hero from './components/Hero';
+import Projects from './components/Projects';
 import Services from './components/Services';
 import UpcomingProjects from './components/UpcomingProjects';
+import WhoIsKarmic from './components/WhoIsKarmic';
 
 function App() {
   return (
@@ -10,7 +13,10 @@ function App() {
       <Header />
       <Hero />
       <UpcomingProjects />
-      <Services/>
+      <Services />
+      <Projects />
+      <WhoIsKarmic />
+      <BackToTop/>
     </>
   );
 }
