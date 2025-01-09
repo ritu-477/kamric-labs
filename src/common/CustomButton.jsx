@@ -1,5 +1,5 @@
 import React from 'react';
-import { ButtonArrow } from '../utils/Icons';
+import { ButtonArrow } from '../utils/icons';
 
 const CustomButton = ({ text, classStyle, customClass }) => {
     return (
