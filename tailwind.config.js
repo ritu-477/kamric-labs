@@ -17,11 +17,7 @@ module.exports = {
       },
 
       colors: {
-        'rich-black': "#01000B",
-        'light-purple': "#BF97FF3D",
-        'blue': "#3A3EF5",
-        'sky-blue': "#32C8F1",
-        'light-blue': "#34A4F2"
+        'light-gray': "#3B3B3B"
       },
 
       fontFamily: {
@@ -36,7 +32,7 @@ module.exports = {
 
       lineHeight: {
         'custom-2xl': "25.2px",
-        'custom-3xl': "30px",
+        'custom-4xl': "60px",
         'custom-5xl': "69.56px",
       },
 
