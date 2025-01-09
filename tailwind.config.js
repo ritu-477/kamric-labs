@@ -24,15 +24,20 @@ module.exports = {
         'light-blue': "#34A4F2"
       },
 
+      fontFamily: {
+        'space-grotesk': "'space grotesk,sans-serif",
+
+      },
+
       fontSize: {
         'custom-xl': "28px",
+        'custom-5xl': "56px",
       },
 
       lineHeight: {
         'custom-2xl': "25.2px",
         'custom-3xl': "30px",
-        'custom-5xl': "57.6px",
-        'custom-6xl': "86.4px",
+        'custom-5xl': "69.56px",
       },
 
       backgroundImage: {
