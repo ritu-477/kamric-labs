@@ -5,7 +5,7 @@ import { DownArrow } from '../utils/icons'
 
 const Hero = () => {
     return (
-        <div className='lg:bg-hero-layer bg-no-repeat max-lg:bg-center bg-cover lg:min-h-[726px] relative max-lg:bg-light-gray' id='home'>
+        <div className='lg:bg-hero-layer bg-no-repeat max-lg:bg-center lg:min-h-[726px] relative max-lg:bg-light-gray bg-hero-bg-set' id='home'>
             <div className='container'>
                 <div className='lg:flex-row flex-col flex justify-between lg:pt-[173px] max-lg:py-20 max-sm:py-12 gap-5'>
                     <div className='lg:w-[570px] w-full flex flex-col justify-center'>
@@ -24,9 +24,9 @@ const Hero = () => {
                     <div className='lg:w-[398px] w-full flex max-lg:justify-center max-lg:items-center'>
                         <img className='max-w-[398px] w-full' src="/assets/images/webp/hero-image.webp" alt="hero-image" />
                     </div>
-                    <div className='absolute bottom-[45px] left-[50%] lg:block hidden'>
+                    <a href='#down' className='absolute bottom-[64px] left-[50%] lg:block hidden'>
                         <DownArrow />
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>

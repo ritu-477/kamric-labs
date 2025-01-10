@@ -17,12 +17,14 @@ module.exports = {
       },
 
       colors: {
-        'light-gray': "#3B3B3B"
+        'light-gray': "#3B3B3B",
+        'border-white': "#FFFFFF33",
+        'border-gray': "#343434",
+        'dark-gray':"#4d4d4d",
       },
 
       fontFamily: {
         'space-grotesk': "'space Grotesk',sans-serif",
-
       },
 
       fontSize: {
@@ -33,6 +35,7 @@ module.exports = {
 
       lineHeight: {
         'custom-2xl': "25.2px",
+        'custom-3xl': "21.74px",
         'custom-4xl': "60px",
         'custom-5xl': "69.56px",
       },
@@ -40,6 +43,15 @@ module.exports = {
       backgroundImage: {
         'hero-layer': "url('/public/assets/images/webp/hero-gray-layer.webp')",
         'project-bg': "url('/public/assets/images/webp/project-bg.webp')",
+      },
+
+      boxShadow: {
+        'shadow-xl': "0px_4px 15px_0px_#FFFFFF1A",
+        'shadow-2xl': "0px_-1px_11px_0px_#ffffff1a",
+      },
+
+      backgroundSize: {
+        'hero-bg-set': '100% 726px'
       },
     },
   },

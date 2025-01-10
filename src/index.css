@@ -11,3 +11,9 @@ body{
   background-repeat: no-repeat;
   font-family: 'sunflower',sans-serif;
 }
+
+html,
+body {
+  scroll-behavior: smooth !important;
+}
+

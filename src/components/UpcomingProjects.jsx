@@ -1,20 +1,21 @@
 import React from 'react';
 import Heading from '../common/Heading';
-import { UPCOMING_PROJECTS } from '../utils/helper';
+import { UPCOMING_PROJECTS_DATA } from '../utils/helper';
+import PrimaryButton from '../common/PrimaryButton';
 
 
 const UpcomingProjects = () => {
 
 
     return (
-        <div className="lg:pt-24 md:pt-20 pt-16 lg:pb-[136px] md:pb-20 pb-16 relative" id='about'>
-            <img className='absolute bottom-[-90px] right-0 max-w-[250px] w-full lg:block hidden' src="/assets/images/webp/upcoming-ellipse.webp" alt="upcoming-ellipse" />
+        <div className="lg:pt-24 md:pt-20 pt-16 lg:pb-[136px] md:pb-20 pb-16 relative" id='down'>
+            <div className='absolute size-[182px] rounded-full bg-white blur-[112px] -z-10 shadow-white -right-0 -bottom-[8%] lg:block hidden'></div>
             <div className="container relative">
-                <div className="absolute lg:top-[-4%] lg:left-[33%] md:top-[-3%] md:left-[28%] left-[15%] top-[-1%] lg:block hidden">
+                <div className="absolute lg:top-[-3%] lg:left-[33%] md:top-[-2%] md:left-[28%] left-[15%] top-[-1%]">
                     <img
                         src="/assets/images/webp/heading-line.webp"
                         alt="line"
-                        className="md:w-[344px] w-[250px]"
+                        className="md:w-[398px] w-[250px]"
                     />
                 </div>
                 <Heading
@@ -22,33 +23,31 @@ const UpcomingProjects = () => {
                     classStyle={'lg:!pb-12 md:!pb-10 !pb-8 text-center'}
                 />
                 <div className="flex max-lg:flex-wrap justify-center md:gap-[29px] gap-5">
-                    {UPCOMING_PROJECTS.map((project) => (
+                    {UPCOMING_PROJECTS_DATA.map((obj) => (
                         <div
-                            key={project.index}
-                            className="p-4 border backdrop-blur-lg bg-white/10 rounded-3xl border-gray-700"
+                            key={obj.index}
+                            className="p-4 border backdrop-blur-lg bg-white/10 rounded-3xl border-border-gray max-sm:w-full"
                         >
                             <img
-                                src={project.image}
-                                alt={project.title}
-                                className="pb-4"
+                                src={obj.image}
+                                alt={obj.title}
+                                className="pb-4 w-full"
                             />
                             <div className="flex justify-between">
-                                <p className="font-medium text-xl leading-custom-xl text-white">
-                                    {project.title}
+                                <p className="font-medium text-xl leading-6 text-white">
+                                    {obj.title}
                                 </p>
-                                <p className="font-bold text-base leading-custom-xl text-white">
-                                    {project.time}
+                                <p className="font-bold text-base leading-5 text-white">
+                                    {obj.time}
                                 </p>
                             </div>
-                            <p className="font-space-grotesk font-light text-base leading-custom-2xl text-white">
-                                {project.category}
+                            <p className="font-space-grotesk font-light text-base leading-7 text-white">
+                                {obj.category}
                             </p>
                         </div>
                     ))}
                 </div>
-                <button className="mt-12 px-8 py-3 border flex justify-center mx-auto items-center text-white font-medium text-base rounded-full transition-all duration-700 ease-in-out hover:bg-gray-500">
-                    View All
-                </button>
+                <PrimaryButton classStyle={'md:mt-12 mt-8 text-white border border-white'} />
             </div>
         </div>
     );

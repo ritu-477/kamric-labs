@@ -1,11 +1,11 @@
-export const NAV_DATA_LINK = [
-    { data: 'Home', href: '#home' },
-    { data: 'Services', href: '#services' },
-    { data: 'Projects', href: '#projects' },
-    { data: 'About', href: '#about' },
+export const NAV_DATA_LIST = [
+    { data: 'Home', link :'#home' },
+    { data: 'Services', link: '#services' },
+    { data: 'Projects', link :'#projects' },
+    { data: 'About', link :'#about' },
 ];
 
-export const UPCOMING_PROJECTS = [
+export const UPCOMING_PROJECTS_DATA = [
     {
         image: '/assets/images/webp/nubbies.webp',
         title: 'Nubbies',
@@ -76,3 +76,61 @@ export const SERVICES_DATA = [
             "NFT solutions from start to finish. From Initial Concept to Secondary market listings, we will guide you every step of the way to ensure your project is a successfully and seemlessly delivered come mint day.",
     },
 ];
+
+export const WHO_KARMIC_DATA = [
+    {
+        src: "/assets/images/webp/digital-art.webp",
+        alt: "digital",
+    },
+    {
+        src: "/assets/images/webp/collection-art.webp",
+        alt: "collection",
+    },
+    {
+        src: "/assets/images/webp/tokyo-ten.webp",
+        alt: "tokyo",
+    },
+];
+
+export const PROJECTS_LISTS = [
+    {
+        image: "/assets/images/webp/project-one-image.webp",
+        title: 'Nubbies'
+    },
+
+    {
+        image: "/assets/images/webp/project-two-image.webp",
+        title: 'Nubbies'
+    },
+
+    {
+        image: "/assets/images/webp/project-three-image.webp",
+        title: 'Nubbies'
+    },
+
+    {
+        image: "/assets/images/webp/project-four-image.webp",
+        title: 'Nubbies'
+    },
+
+    {
+        image: "/assets/images/webp/project-five-image.webp",
+        title: 'Nubbies'
+    },
+
+    {
+        image: "/assets/images/webp/project-six-image.webp",
+        title: 'Nubbies'
+    },
+
+
+    {
+        image: "/assets/images/webp/project-seven-image.webp",
+        title: 'Nubbies'
+    },
+
+    {
+        image: "/assets/images/webp/project-eight-image.webp",
+        title: 'Nubbies'
+    },
+]
