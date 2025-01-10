@@ -5,10 +5,10 @@ import { WHO_KARMIC_DATA } from '../utils/helper'
 
 const WhoIsKarmic = () => {
     return (
-        <div className='lg:pb-[156px] sm:pb-32 pb-20 relative max-sm:-mt-10' id='about'>
+        <div className='lg:pb-[156px] md:py-20 max-sm:py-12 lg:pt-20 relative' id='about'>
             <div className='absolute size-[226px] rounded-full bg-white blur-[110px] -z-10 shadow-white top-[-117px] right-0 lg:block hidden'></div>
-            <div className="container relative lg:pt-20 sm:pt-16">
-                <div className="absolute lg:top-[13%] lg:left-[35.5%] md:top-[6%] md:left-[28%] left-[15%] top-[-2%]">
+            <div className="container relative">
+                <div className="absolute lg:-top-[3%] lg:left-[37.5%] md:top-[6%] md:left-[28%] left-[15%] top-[-2%]">
                     <img
                         src="/assets/images/webp/heading-line.webp"
                         alt="line"

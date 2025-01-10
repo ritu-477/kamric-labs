@@ -20,7 +20,8 @@ module.exports = {
         'light-gray': "#3B3B3B",
         'border-white': "#FFFFFF33",
         'border-gray': "#343434",
-        'dark-gray':"#4d4d4d",
+        'dark-gray': "#4d4d4d",
+        'dusk-black': "#FFFFFF1A",
       },
 
       fontFamily: {
@@ -48,6 +49,7 @@ module.exports = {
       boxShadow: {
         'shadow-xl': "0px_4px 15px_0px_#FFFFFF1A",
         'shadow-2xl': "0px_-1px_11px_0px_#ffffff1a",
+        'shadow-3xl': "0px_4px_16px_0px_#FFFFFF1A",
       },
 
       backgroundSize: {
