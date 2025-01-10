@@ -5,7 +5,8 @@ import Heading from '../common/Heading'
 
 const Services = () => {
     return (
-        <div>
+        <div className='relative'>
+            <img className='absolute max-w-[209px] w-full bottom-[-190px] left-0 blur-[-40px] lg:block hidden' src="/assets/images/webp/services-ellipse.webp" alt="ellipse" />
             <div className='container relative' id='service'>
                 <div className="absolute lg:top-[-3%] lg:left-[33%] md:top-[-3%] md:left-[28%] left-[15%] top-[-1%] lg:block hidden">
                     <img

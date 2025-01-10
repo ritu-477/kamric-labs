@@ -30,7 +30,8 @@ const Header = () => {
     }, [isMenuOpen])
 
     return (
-        <div className="sm:py-7 py-4 flex items-center lg:h-[100px] sm:h-20">
+        <div className="sm:py-7 py-4 flex items-center lg:h-[100px] sm:h-20 relative">
+            <img className='absolute top-0 left-0 max-w-[184px] w-full lg:block hidden' src="/assets/images/webp/header-image.webp" alt="ellipse" />
             <div className="container">
                 <div className="flex justify-between items-center lg:h-[100px] sm:h-20">
                     <a href="/">

@@ -7,7 +7,8 @@ const UpcomingProjects = () => {
 
 
     return (
-        <div className="lg:pt-24 md:pt-20 pt-16 lg:pb-[136px] md:pb-20 pb-16" id='about'>
+        <div className="lg:pt-24 md:pt-20 pt-16 lg:pb-[136px] md:pb-20 pb-16 relative" id='about'>
+            <img className='absolute bottom-[-90px] right-0 max-w-[250px] w-full lg:block hidden' src="/assets/images/webp/upcoming-ellipse.webp" alt="upcoming-ellipse" />
             <div className="container relative">
                 <div className="absolute lg:top-[-4%] lg:left-[33%] md:top-[-3%] md:left-[28%] left-[15%] top-[-1%] lg:block hidden">
                     <img
