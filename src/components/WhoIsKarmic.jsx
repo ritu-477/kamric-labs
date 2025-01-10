@@ -4,7 +4,8 @@ import Description from '../common/Description'
 
 const WhoIsKarmic = () => {
     return (
-        <div className='lg:pb-[156px] pb-32'>
+        <div className='lg:pb-[156px] pb-32 relative'>
+            <img className='absolute top-[-207px] right-0 max-w-[226px] w-full lg:block hidden blur-[-40px]' src="/assets/images/webp/karmic-ellipse.webp" alt="karmic-ellipse" />
             <div className="container relative lg:pt-20 sm:pt-16">
                 <div className="absolute lg:top-[12%] lg:left-[35.5%] md:top-[-3%] md:left-[28%] left-[15%] top-[-1%] lg:block hidden">
                     <img
