@@ -22,6 +22,7 @@ module.exports = {
         'border-gray': "#343434",
         'dark-gray': "#4d4d4d",
         'dusk-black': "#FFFFFF1A",
+        'light-black': "#1d1d1d",
       },
 
       fontFamily: {
@@ -53,7 +54,7 @@ module.exports = {
       },
 
       backgroundSize: {
-        'hero-bg-set':'100% 726px',
+        'hero-bg-set':'100% 100%',
       },
     },
   },

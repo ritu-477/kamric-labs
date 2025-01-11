@@ -1,4 +1,4 @@
-import {FacebookIcon, InstagramIcon, TwitterIcon, YoutubeIcon } from '../utils/icons'
+import { FacebookIcon, InstagramIcon, TwitterIcon, YoutubeIcon, SmartContract, WebServices, MarketingMedia, Consultation, NftServices, Blockchain, Trust , Peoples} from '../utils/icons'
 
 
 export const NAV_DATA_LIST = [
@@ -41,7 +41,7 @@ export const UPCOMING_PROJECTS_DATA = [
 export const SERVICES_CARDS_DATA = [
     {
         circle: "/assets/images/webp/white-circle.webp",
-        image: "/assets/images/svg/smart-contract.svg",
+        icon: <SmartContract/>,
         title: "Smart Contract ",
         description: "Tailored smart contracts to fit your needs, no matter the size. No idea is too big, too small, or too degen...",
         content: []
@@ -49,7 +49,7 @@ export const SERVICES_CARDS_DATA = [
 
     {
         circle: "/assets/images/webp/white-circle.webp",
-        image: "/assets/images/svg/web-services.svg",
+        icon: <WebServices />,
         title: "Web3 Services",
         content: [
             {
@@ -75,7 +75,7 @@ export const SERVICES_CARDS_DATA = [
 
     {
         circle: "/assets/images/webp/white-circle.webp",
-        image: "/assets/images/svg/media.svg",
+        icon: <MarketingMedia />,
         title: "Marketing / Media",
         description: "We have worked with some of the spaces most reputable figures to drive audiences.",
         content: []
@@ -83,7 +83,7 @@ export const SERVICES_CARDS_DATA = [
 
     {
         circle: "/assets/images/webp/white-circle.webp",
-        image: "/assets/images/svg/consultation.svg",
+        icon: <Consultation />,
         title: "Consultation",
         description: "Have an idea but not sure where to start? Hop on a call with us and we will help you to put plans into action.",
         content: []
@@ -91,7 +91,7 @@ export const SERVICES_CARDS_DATA = [
 
     {
         circle: "/assets/images/webp/white-circle.webp",
-        image: "/assets/images/svg/nft-services.svg",
+        icon: <NftServices />,
         title: "NFT Services",
         description: "NFT solutions from start to finish. From Initial Concept to Secondary market listings, we will guide you every step of the way to ensure your project is successfully and seamlessly delivered come mint day.",
         content: []
@@ -159,26 +159,23 @@ export const PROJECTS_LISTS = [
 export const VALUES_CARDS_DATA = [
     {
         circle: "/assets/images/webp/white-circle.webp",
-        image: "/assets/images/svg/peoples-vector.svg",
+        icon: <Peoples/>,
         title: "W3",
         description: "Not your average degens. Karmic is lead by a team of Industry professionals with extensive backgrounds in web3 and web2. We are actively involved in all that we do. Boots on the ground. We know the ins and outs of the space, because we are building it.",
-        content: []
     },
 
     {
         circle: "/assets/images/webp/white-circle.webp",
-        image: "/assets/images/svg/blockchain-vector.svg",
+        icon: <Blockchain/>,
         title: "Blockchain Agnostic",
         description: "Our team of seasoned developers will help you to launch your project on the network of your choosing- be it ethereum, solana, polygon, etc..",
-        content: []
     },
 
     {
         circle: "/assets/images/webp/white-circle.webp",
-        image: "/assets/images/svg/trust-vector.svg",
+        icon: <Trust/>,
         title: "Trust",
         description: "Trustless and results driven development backed by a portfolio of success. You're the captain of the ship, and the keys are always in your hands.",
-        content: []
     },
 ];
 

@@ -8,7 +8,7 @@ const UpcomingProjects = () => {
 
 
     return (
-        <div className="lg:pt-24 md:pt-20 pt-16 lg:pb-[136px] md:pb-20 pb-16 relative" id='down'>
+        <div className="lg:pt-24 md:py-14 lg:pb-[68px] py-12 relative" id='down'>
             <div className='absolute size-[182px] rounded-full bg-white blur-[112px] -z-10 shadow-white -right-0 -bottom-[2%] lg:block hidden'></div>
             <div className="container relative">
                 <div className="absolute lg:top-[-4.5%] lg:left-[33%] md:top-[-2%] md:left-[28%] left-[15%] top-[-1%]">
@@ -26,14 +26,15 @@ const UpcomingProjects = () => {
                     {UPCOMING_PROJECTS_DATA.map((obj) => (
                         <div
                             key={obj.index}
-                            className="p-4 border rounded-lg backdrop-blur-lg bg-white/10 border-border-gray max-sm:w-full"
-                        >
+                            className="p-4 lg:min-h-[334px] border rounded-lg backdrop-blur-lg bg-white/10 border-border-gray max-sm:w-full">
                             <img
+                                width={231}
+                                height={234}
                                 src={obj.image}
-                                alt={obj.title}
-                                className="pb-4 w-full pointer-events-none"
+                                alt="card-image"
+                                className="w-full sm:max-w-[231px] object-cover rounded-xl"
                             />
-                            <div className="flex justify-between">
+                            <div className="flex justify-between pt-[15px]">
                                 <p className="font-medium text-base sm:text-xl sm:leading-6 text-white">
                                     {obj.title}
                                 </p>

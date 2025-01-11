@@ -17,3 +17,8 @@ body {
   scroll-behavior: smooth !important;
 }
 
+.text-stroke:hover {
+  -webkit-text-stroke: 0.5px white;
+}
+
+

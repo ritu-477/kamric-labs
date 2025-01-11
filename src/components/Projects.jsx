@@ -5,13 +5,13 @@ import PrimaryButton from '../common/PrimaryButton';
 
 const Projects = () => {
     return (
-        <div className='bg-cover bg-center bg-no-repeat max-lg:bg-white lg:bg-project-bg xl:h-[902px] py-12 md:py-20 lg:pt-[99px] lg:pb-[160px] lg:project-bg-set' id='projects'>
+        <div className='bg-center bg-no-repeat max-lg:bg-white lg:bg-project-bg xl:h-[902px] py-12 md:py-14 lg:pt-[99px] lg:pb-[121.5px] lg:project-bg-set bg-hero-bg-set' id='projects'>
             <div className='container relative'>
                 <div className="absolute xl:top-[-4.5%] lg:-top-[3%] lg:left-[33.5%] md:top-[-1%] md:left-[33%] left-[20%] top-[-0.5%]">
                          <img
                                         src="/assets/images/webp/heading-black-line.webp"
                                       alt="black-line"
-                                     className="lg:w-[398px] md:w-[270px] w-[220px]"
+                                     className="lg:w-[398px] lg: md:w-[270px] w-[220px]"
                                    />
                            </div>
                                <Heading
@@ -20,17 +20,19 @@ const Projects = () => {
                               />
                 <p className='text-base max-w-[532px] mx-auto text-center leading-6 font-normal font-space-grotesk pt-4'>Id nam massa sit ut purus tortor est ultrices nunc. Ipsum, nibh egestas vehicula tellus. Molestie adipiscing diam nibh lectus. Magna id nisl quis vestibulum rhoncus.</p>
                
-                <div className='flex flex-wrap pt-[29px] max-md:pt-4 justify-center'>
+                <div className='flex flex-wrap pt-[29px] max-md:pt-4 justify-center w-full max-w-[1140px]'>
                     {PROJECTS_LISTS.map((obj, i) => (
                         <div
                             key={i}
-                            className={`w-3/12 flex max-xl:w-4/12 max-md:w-6/12 max-sm:w-full px-2 pt-6`}
+                            className={`lg:w-3/12 flex md:w-4/12 sm:w-6/12 w-full px-2 pt-6`}
                         >
                             <div
                                 className={`max-w-[273px] mx-auto hover:scale-125 hover:!z-20 overflow-hidden group transition-all relative duration-300 cursor-pointer flex w-full rounded-lg justify-center  ${i === 0 ? 'bg-sky-blue' : ''
                                     }`}
                             >
                                 <img
+                                    width={273}
+                                    height={174}
                                     className=" w-full rounded-lg pointer-events-none"
                                     src={obj.image}
                                     alt='projects-image'
