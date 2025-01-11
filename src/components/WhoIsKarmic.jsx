@@ -5,14 +5,14 @@ import { WHO_KARMIC_DATA } from '../utils/helper'
 
 const WhoIsKarmic = () => {
     return (
-        <div className='lg:pb-[156px] md:py-20 max-sm:py-12 lg:pt-20 relative' id='about'>
+        <div className='lg:pb-[78px] md:py-20 max-sm:py-12 lg:pt-20 relative' id='about'>
             <div className='absolute size-[226px] rounded-full bg-white blur-[110px] -z-10 shadow-white top-[-117px] right-0 lg:block hidden'></div>
             <div className="container relative">
-                <div className="absolute lg:-top-[3%] lg:left-[37.5%] md:top-[6%] md:left-[28%] left-[15%] top-[-2%]">
+                <div className="absolute lg:-top-[7%] lg:left-[33.3%] md:-top-[3%] md:left-[28%] left-[15%] top-[-2%]">
                     <img
                         src="/assets/images/webp/heading-line.webp"
                         alt="line"
-                        className="md:w-[344px] w-[250px]"
+                        className="lg:w-[398px] md:w-[344px] w-[250px]"
                     />
                 </div>
                 <Heading
@@ -20,7 +20,7 @@ const WhoIsKarmic = () => {
                     text={'Who is karmic?'}
                 />
                 <Description
-                    classStyle={'max-w-[532px] mx-auto text-center max-sm:pt-5 pb-[2px] text-white pt-3'}
+                    classStyle={'max-w-[532px] mx-auto text-center text-white pt-5'}
                     text={'We are builders, innovaters, and believers.'}
                 />
                 <Description

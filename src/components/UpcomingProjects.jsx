@@ -11,7 +11,7 @@ const UpcomingProjects = () => {
         <div className="lg:pt-24 md:pt-20 pt-16 lg:pb-[136px] md:pb-20 pb-16 relative" id='down'>
             <div className='absolute size-[182px] rounded-full bg-white blur-[112px] -z-10 shadow-white -right-0 -bottom-[2%] lg:block hidden'></div>
             <div className="container relative">
-                <div className="absolute lg:top-[-3%] lg:left-[33%] md:top-[-2%] md:left-[28%] left-[15%] top-[-1%]">
+                <div className="absolute lg:top-[-4.5%] lg:left-[33%] md:top-[-2%] md:left-[28%] left-[15%] top-[-1%]">
                     <img
                         src="/assets/images/webp/heading-line.webp"
                         alt="line"

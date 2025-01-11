@@ -5,6 +5,7 @@ import Hero from './components/Hero';
 import Projects from './components/Projects';
 import Services from './components/Services';
 import UpcomingProjects from './components/UpcomingProjects';
+import { Values } from './components/Values';
 import WhoIsKarmic from './components/WhoIsKarmic';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Services />
       <Projects />
       <WhoIsKarmic />
+      <Values/>
       <BackToTop/>
     </>
   );

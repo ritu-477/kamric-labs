@@ -7,18 +7,18 @@ const Projects = () => {
     return (
         <div className='bg-cover bg-center bg-no-repeat max-lg:bg-white lg:bg-project-bg xl:h-[902px] py-12 md:py-20 lg:pt-[99px] lg:pb-[160px] lg:project-bg-set' id='projects'>
             <div className='container relative'>
-                <div className="absolute lg:top-[-2%] lg:left-[35.5%] md:top-[-1%] md:left-[33%] left-[20%] top-[-0.5%]">
+                <div className="absolute xl:top-[-4.5%] lg:-top-[3%] lg:left-[33.5%] md:top-[-1%] md:left-[33%] left-[20%] top-[-0.5%]">
                          <img
                                         src="/assets/images/webp/heading-black-line.webp"
                                       alt="black-line"
-                                     className="lg:w-[344px] md:w-[270px] w-[220px]"
+                                     className="lg:w-[398px] md:w-[270px] w-[220px]"
                                    />
                            </div>
                                <Heading
                                   text={'Projects'}
                                  classStyle={'lg:!pb-2 text-center !text-black'}
                               />
-                <p className='text-base max-w-[532px] mx-auto text-center leading-6 font-normal font-space-grotesk max-lg:pt-4'>Id nam massa sit ut purus tortor est ultrices nunc. Ipsum, nibh egestas vehicula tellus. Molestie adipiscing diam nibh lectus. Magna id nisl quis vestibulum rhoncus.</p>
+                <p className='text-base max-w-[532px] mx-auto text-center leading-6 font-normal font-space-grotesk pt-4'>Id nam massa sit ut purus tortor est ultrices nunc. Ipsum, nibh egestas vehicula tellus. Molestie adipiscing diam nibh lectus. Magna id nisl quis vestibulum rhoncus.</p>
                
                 <div className='flex flex-wrap pt-[29px] max-md:pt-4 justify-center'>
                     {PROJECTS_LISTS.map((obj, i) => (
