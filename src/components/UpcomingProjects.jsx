@@ -26,7 +26,7 @@ const UpcomingProjects = () => {
                     {UPCOMING_PROJECTS_DATA.map((obj) => (
                         <div
                             key={obj.index}
-                            className="p-4 border backdrop-blur-lg bg-white/10 rounded-3xl border-border-gray max-sm:w-full"
+                            className="p-4 border rounded-lg backdrop-blur-lg bg-white/10 border-border-gray max-sm:w-full"
                         >
                             <img
                                 src={obj.image}

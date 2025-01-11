@@ -30,7 +30,7 @@ const Services = () => {
                                     alt={obj.title}
                                     className="size-10"
                                 /> 
-                                <h3 className="font-bold text-xl leading-custom-2xl text-white lg:pt-5 pt-4 pb-[6px]">
+                                <h3 className="font-bold text-xl font-space-grotesk leading-custom-2xl text-white lg:pt-5 pt-4 pb-[6px]">
                                     {obj.title}
                                 </h3>
                                 {obj.description && (
