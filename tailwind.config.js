@@ -53,7 +53,7 @@ module.exports = {
       },
 
       backgroundSize: {
-        'hero-bg-set': '100% 726px',
+        'hero-bg-set':'100% 726px',
       },
     },
   },

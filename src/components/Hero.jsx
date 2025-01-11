@@ -5,7 +5,7 @@ import { DownArrow } from '../utils/icons'
 
 const Hero = () => {
     return (
-        <div className='lg:bg-hero-layer bg-no-repeat max-lg:bg-center lg:min-h-[726px] relative max-lg:bg-light-gray' id='home'>
+        <div className='lg:bg-hero-layer bg-hero-bg-set bg-no-repeat max-lg:bg-center lg:min-h-[726px] relative max-lg:bg-light-gray' id='home'>
             <div className='container'>
                 <div className='lg:flex-row flex-col flex justify-between lg:pt-[173px] max-lg:py-20 max-sm:py-12 gap-5'>
                     <div className='lg:w-[570px] w-full flex flex-col justify-center'>
