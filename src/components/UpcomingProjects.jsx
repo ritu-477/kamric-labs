@@ -31,17 +31,17 @@ const UpcomingProjects = () => {
                             <img
                                 src={obj.image}
                                 alt={obj.title}
-                                className="pb-4 w-full"
+                                className="pb-4 w-full pointer-events-none"
                             />
                             <div className="flex justify-between">
-                                <p className="font-medium text-xl leading-6 text-white">
+                                <p className="font-medium text-base sm:text-xl sm:leading-6 text-white">
                                     {obj.title}
                                 </p>
-                                <p className="font-bold text-base leading-5 text-white">
+                                <p className="font-bold text-sm sm:text-base leading-5 text-white">
                                     {obj.time}
                                 </p>
                             </div>
-                            <p className="font-space-grotesk font-light text-base leading-7 text-white">
+                            <p className="font-space-grotesk font-light text-sm leading-6 sm:text-base sm:leading-7 text-white">
                                 {obj.category}
                             </p>
                         </div>

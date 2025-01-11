@@ -31,7 +31,7 @@ const Header = () => {
 
     return (
         <div className="sm:pt-[14px] max-sm:py-4 flex items-center h-[65px] relative">
-            <div className='absolute size-[184px] rounded-full bg-white blur-[110px] -z-10 shadow-white -left-[10%] -top-[8%] lg:block hidden'></div>
+            <div className='absolute size-[184px] rounded-full bg-white blur-[100px] -z-10 shadow-white -left-[5%] -top-[8%] lg:block hidden'></div>
             <div className="container">
                 <div className="flex justify-between items-center sm:h-[65px]">
                     <a href="/">

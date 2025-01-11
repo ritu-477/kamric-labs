@@ -5,7 +5,7 @@ import PrimaryButton from '../common/PrimaryButton';
 
 const Projects = () => {
     return (
-        <div className='bg-cover bg-center bg-no-repeat max-lg:bg-white lg:bg-project-bg xl:h-[902px] py-12 md:py-20 lg:pt-[99px] lg:pb-[160px]' id='projects'>
+        <div className='bg-cover bg-center bg-no-repeat max-lg:bg-white lg:bg-project-bg xl:h-[902px] py-12 md:py-20 lg:pt-[99px] lg:pb-[160px] lg:project-bg-set' id='projects'>
             <div className='container relative'>
                 <div className="absolute lg:top-[-2%] lg:left-[35.5%] md:top-[-1%] md:left-[33%] left-[20%] top-[-0.5%]">
                          <img
@@ -31,7 +31,7 @@ const Projects = () => {
                                     }`}
                             >
                                 <img
-                                    className=" w-full rounded-lg"
+                                    className=" w-full rounded-lg pointer-events-none"
                                     src={obj.image}
                                     alt='projects-image'
                                 />
