@@ -1,3 +1,6 @@
+import {FacebookIcon, InstagramIcon, TwitterIcon, YoutubeIcon } from '../utils/icons'
+
+
 export const NAV_DATA_LIST = [
     { data: 'Home', link :'#home' },
     { data: 'Services', link: '#services' },
@@ -176,5 +179,24 @@ export const VALUES_CARDS_DATA = [
         title: "Trust",
         description: "Trustless and results driven development backed by a portfolio of success. You're the captain of the ship, and the keys are always in your hands.",
         content: []
+    },
+];
+
+export const SOCIAL_LINKS = [
+    {
+        link: 'https://www.instagram.com/',
+        icon: <InstagramIcon />,
+    },
+    {
+        link: 'https://x.com/i/flow/login',
+        icon: <TwitterIcon />,
+    },
+    {
+        link: 'https://www.facebook.com/',
+        icon: <FacebookIcon />,
+    },
+    {
+        link: 'https://www.youtube.com/',
+        icon: <YoutubeIcon />,
     },
 ];

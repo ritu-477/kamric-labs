@@ -1,54 +1,29 @@
+import React from 'react'
+import { SOCIAL_LINKS } from '../utils/helper'
 
-// import React from 'react'
+const Footer = () => {
+    const currentYear = new Date().getFullYear()
+    return (
+        <div className='lg:pt-[50px] md:pt-10 pt-12'>
+            <div className='container'>
+                <a href="/"><img src="/assets/images/webp/footer-logo.webp" alt="footer-logo" className='lg:max-w-[255px] max-w-[210px] mx-auto xl:pb-[69px] lg:pb-14 pb-9' /></a>
+                <div className='flex items-center md:gap-6 gap-4 justify-center pb-4'>
+                    {SOCIAL_LINKS.map((obj, index) => (
+                        <a
+                            key={index}
+                            href={obj.link}
+                            target='_blank'
+                            className='size-[35px] bg-white rounded-full flex items-center justify-center hover:translate-y-[-5px] duration-700'
+                        >
+                            {obj.icon}
+                        </a>
+                    ))}
+                </div>
+            </div>
+            <div className='w-full border border-white'></div>
+            <p className='font-normal text-base leading-7 font-space-grotesk text-white opacity-70 mx-auto text-center lg:pt-4 lg:pb-[18px] py-3'>© Karmic labs {currentYear}</p>
+       </div>
+    )
+}
 
-// const Footer = () => {
-//     const currentYear = new Date().getFullYear();
-
-//     return (
-//         <div id='about' className='lg:pt-[60px] md:pt-8 pt-6'>
-//             <div className="container">
-//                 <img src="/assets/images/webp/footer-logo.webp" alt="footer-logo" className='pb-[69px] flex mx-auto max-md:w-[160px]' />
-//                 <div className="flex items-center justify-center gap-6 pb-4">
-//                     <a
-//                         href="https://www.instagram.com/"
-//                         target="_blank"
-//                         className="hover:scale-110 transition-all duration-300"
-//                         rel="noreferrer"
-//                     >
-//                         <img src="./assets/images/svg/instagram.svg" alt="instagram" />
-//                     </a>
-//                     <a
-//                         href="https://x.com/?lang=en&mx=2"
-//                         target="_blank"
-//                         className="hover:scale-110 transition-all duration-300"
-//                         rel="noreferrer"
-//                     >
-//                         <img src="./assets/images/svg/twitter.svg" alt="twitter" />
-//                     </a>
-//                     <a
-//                         href="www.facebook.com"
-//                         target="_blank"
-//                         className="hover:scale-110 transition-all duration-300"
-//                         rel="noreferrer"
-//                     >
-//                         <img src="./assets/images/svg/facebook.svg" alt="facebook" />
-//                     </a>
-//                     <a
-//                         href="https://www.youtube.com/"
-//                         target="_blank"
-//                         className="hover:scale-110 transition-all duration-300"
-//                         rel="noreferrer"
-//                     >
-//                         <img src="./assets/images/svg/youtube.svg" alt="you-tube" />
-//                     </a>
-//                 </div>
-//             </div>
-//             <div className="border-[0.5px] border-white w-full"></div>
-//             <p className="text-white opacity-70 text-center max-sm:text-sm pt-4 pb-[18px]">
-//                 © Karmic labs {currentYear}
-//             </p>
-//         </div>
-//     )
-// }
-
-// export default Footer
+export default Footer

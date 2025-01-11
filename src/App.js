@@ -1,5 +1,6 @@
 import './App.css';
 import BackToTop from './common/BackToTop';
+import Footer from './components/Footer';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Projects from './components/Projects';
@@ -17,7 +18,8 @@ function App() {
       <Services />
       <Projects />
       <WhoIsKarmic />
-      <Values/>
+      <Values />
+      <Footer/>
       <BackToTop/>
     </>
   );

@@ -4,7 +4,7 @@ import Heading from '../common/Heading'
 
 export const Values = () => {
   return (
-      <div className='lg:pt-[78px] lg:pb-[50px] md:py-20 max-sm:py-12'>
+      <div className='lg:pt-[78px] lg:pb-[10px] md:pt-20 md:pb-10 pt-12 py-2'>
           <div className='container relative'>
               <div className="absolute lg:-top-[5%] lg:left-[33%] md:-top-[3%] md:left-[28%] left-[20%] top-[-1.5%] ">
                   <img
