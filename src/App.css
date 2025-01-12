@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Sunflower:wght@300&display=swap');
+
+body {
+    background-image: url("../public/assets/images/webp/body-bg-image.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'sunflower', sans-serif;
+}
+
+html,
+body {
+    scroll-behavior: smooth !important;
+}
+
+.text-stroke:hover {
+    -webkit-text-stroke: 0.5px white;
+}

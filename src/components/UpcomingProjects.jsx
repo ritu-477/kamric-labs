@@ -9,24 +9,24 @@ const UpcomingProjects = () => {
 
     return (
         <div className="lg:pt-24 md:py-14 lg:pb-[68px] py-12 relative" id='down'>
-            <div className='absolute size-[182px] rounded-full bg-white blur-[112px] -z-10 shadow-white -right-0 -bottom-[2%] lg:block hidden'></div>
+            <div className='absolute size-[182px] rounded-full bg-white blur-[112px] -z-10 shadow-white -right-0 -bottom-[6%] lg:block hidden'></div>
             <div className="container relative">
                 <div className="absolute lg:top-[-4.5%] lg:left-[33%] md:top-[-2%] md:left-[28%] left-[15%] top-[-1%]">
                     <img
                         src="/assets/images/webp/heading-line.webp"
                         alt="line"
-                        className="md:w-[398px] w-[250px]"
+                        className="lg:w-[398px] md:w-[344px] w-[250px]"
                     />
                 </div>
                 <Heading
                     text={'Upcoming Projects'}
-                    classStyle={'lg:!pb-12 md:!pb-10 !pb-8 text-center'}
+                    classStyle={'lg:!pb-12 !pb-10 text-center'}
                 />
-                <div className="flex max-lg:flex-wrap justify-center md:gap-[29px] gap-5">
+                <div className="flex max-lg:flex-wrap justify-center xl:gap-[29px] gap-5">
                     {UPCOMING_PROJECTS_DATA.map((obj) => (
                         <div
                             key={obj.index}
-                            className="p-4 lg:min-h-[334px] border rounded-lg backdrop-blur-lg bg-white/10 border-border-gray max-sm:w-full">
+                            className="xl:p-4 lg:p-3 p-4 xl:min-h-[334px] border rounded-lg backdrop-blur-lg bg-white/10 border-border-gray max-sm:w-full transition-all duration-700 ease-in-out hover:scale-110">
                             <img
                                 width={231}
                                 height={234}
@@ -35,10 +35,10 @@ const UpcomingProjects = () => {
                                 className="w-full sm:max-w-[231px] object-cover rounded-xl"
                             />
                             <div className="flex justify-between pt-[15px]">
-                                <p className="font-medium text-base sm:text-xl sm:leading-6 text-white">
+                                <p className="font-medium text-base sm:text-xl sm:leading-6 text-white text-nowrap">
                                     {obj.title}
                                 </p>
-                                <p className="font-bold text-sm sm:text-base leading-5 text-white">
+                                <p className="font-bold text-sm sm:text-base leading-5 text-white text-nowrap">
                                     {obj.time}
                                 </p>
                             </div>
@@ -48,7 +48,7 @@ const UpcomingProjects = () => {
                         </div>
                     ))}
                 </div>
-                <PrimaryButton classStyle={'md:mt-12 mt-8 text-white border border-white'} />
+                <PrimaryButton classStyle={'md:mt-12 mt-8 text-white transition-all duration-700 ease-in-out hover:bg-white hover:text-dark-black border border-white'} />
             </div>
         </div>
     );

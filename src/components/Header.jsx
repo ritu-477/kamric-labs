@@ -38,7 +38,7 @@ const Header = () => {
                         <img className='lg:max-w-[156px] max-w-[120px] pointer-events-none' src="/assets/images/webp/nav-logo.webp" alt="nav-logo" />
                     </a>
                     <div className='lg:block hidden'>
-                        <div className="flex gap-8 items-center">
+                        <div className="flex gap-10 items-center">
                             {NAV_DATA_LIST.map((obj, index) => (
                                 <a onClick={toggleMenu}
                                     key={index}
@@ -80,7 +80,7 @@ const Header = () => {
                                 ))}
                             </div>
                         </div>
-                        <a onClick={toggleMenu} href="#home"><CustomButton classStyle={'!py-[10px] !px-[34px] bg-white hover:bg-gray-500 transition-all duration-500'} text={'Connect Wallet'} /></a>
+                        <a onClick={toggleMenu} href="#home"><CustomButton classStyle={'!py-[9.2px] !px-[33.3px] bg-white hover:bg-black hover:text-white border-white border transition-all duration-500'} text={'Connect Wallet'} /></a>
                     </div>
                 </div>
             </div>

@@ -23,6 +23,7 @@ module.exports = {
         'dark-gray': "#4d4d4d",
         'dusk-black': "#FFFFFF1A",
         'light-black': "#1d1d1d",
+        'dark-black': "#040404",
       },
 
       fontFamily: {

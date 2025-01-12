@@ -4,7 +4,7 @@ import { SOCIAL_LINKS } from '../utils/helper'
 const Footer = () => {
     const currentYear = new Date().getFullYear()
     return (
-        <div className='lg:pt-[50px] md:pt-10 pt-12'>
+        <div className='lg:pt-[50px] md:pt-4 pt-10'>
             <div className='container'>
                 <a href="/"><img src="/assets/images/webp/footer-logo.webp" alt="footer-logo" className='lg:max-w-[255px] max-w-[210px] mx-auto xl:pb-[69px] lg:pb-14 pb-9' /></a>
                 <div className='flex items-center md:gap-6 gap-4 justify-center pb-4'>
@@ -13,7 +13,7 @@ const Footer = () => {
                             key={index}
                             href={obj.link}
                             target='_blank'
-                            className='size-[35px] bg-white rounded-full flex items-center justify-center hover:translate-y-[-5px] duration-700'
+                            className='flex items-center justify-center hover:scale-110 duration-300 ease-linear'
                         >
                             {obj.icon}
                         </a>
@@ -26,4 +26,4 @@ const Footer = () => {
     )
 }
 
-export default Footer
+export default Footer;

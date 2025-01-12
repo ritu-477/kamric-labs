@@ -27,7 +27,7 @@ const WhoIsKarmic = () => {
                     classStyle={'max-w-[532px] mx-auto text-center text-white'}
                     text={'We believe in a future that rests in your hands, and yours alone. The future is decentralized, The future is web3.'}
                 />
-                <div className="flex max-lg:flex-wrap pt-10 max-xl:justify-center items-center max-w-[1140px] mx-auto w-full gap-4">
+                <div className="flex max-lg:flex-wrap pt-8 sm:pt-10 max-xl:justify-center items-center max-w-[1140px] mx-auto w-full gap-4">
                     {WHO_KARMIC_DATA.map((image, index) => (
                         <img
                             width={369}
@@ -44,4 +44,4 @@ const WhoIsKarmic = () => {
     )
 }
 
-export default WhoIsKarmic
+export default WhoIsKarmic;
