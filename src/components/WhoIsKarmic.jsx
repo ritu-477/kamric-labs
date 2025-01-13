@@ -7,14 +7,12 @@ const WhoIsKarmic = () => {
     return (
         <div className='lg:pb-[78px] md:py-14 py-12 lg:pt-20 relative' id='about'>
             <div className='absolute size-[226px] rounded-full bg-white blur-[110px] -z-10 shadow-white top-[-117px] right-0 lg:block hidden'></div>
-            <div className="container relative">
-                <div className="absolute lg:-top-[7%] lg:left-[33.3%] md:-top-[3%] md:left-[28%] left-[15%] top-[-2%]">
+            <div className="container">
                     <img
                         src="/assets/images/webp/heading-line.webp"
                         alt="line"
-                        className="lg:w-[398px] md:w-[344px] w-[250px]"
+                    className="lg:w-[398px] md:w-[344px] w-[220px] mx-auto -mb-11 md:-mb-16 lg:-mb-[74px] pointer-events-none"
                     />
-                </div>
                 <Heading
                     classStyle={'text-center'}
                     text={'Who is karmic?'}
@@ -33,7 +31,7 @@ const WhoIsKarmic = () => {
                             width={369}
                             height={223}
                             key={index}
-                            className='max-w-[369px] object-cover max-xl:max-w-[300px] max-lg:max-w-[329px] rounded-lg border pointer-events-none border-border-white shadow-shadow-xl hover:border-transparent transition-all duration-500'
+                            className='max-w-[369px] object-cover max-xl:max-w-[300px] max-lg:max-w-[329px] rounded-lg border pointer-e vents-none border-border-white shadow-shadow-xl hover:border-transparent transition-all duration-500'
                             src={image.image}
                             alt={image.alt}
                         />

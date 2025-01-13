@@ -5,14 +5,12 @@ import Heading from '../common/Heading'
 export const Values = () => {
   return (
       <div className='lg:pt-[78px] lg:pb-[10px] md:pt-14 md:pb-4 pt-12 py-2'>
-          <div className='container relative'>
-              <div className="absolute lg:-top-[5%] lg:left-[33%] md:-top-[3%] md:left-[28%] left-[20%] top-[-1.5%] ">
+          <div className='container'>
                   <img
                       src="/assets/images/webp/heading-line.webp"
                       alt="line"
-                      className="lg:w-[398px] md:w-[344px] sm:w-[250px] w-[220px]"
+                      className="lg:w-[398px] md:w-[344px] w-[220px] mx-auto -mb-11 md:-mb-16 lg:-mb-[74px] pointer-events-none"
                   />
-              </div>
               <Heading
                   text={'Values'}
                   classStyle={'text-center'}

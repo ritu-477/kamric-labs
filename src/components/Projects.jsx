@@ -6,14 +6,12 @@ import PrimaryButton from '../common/PrimaryButton';
 const Projects = () => {
     return (
         <div className='bg-center bg-no-repeat max-lg:bg-white lg:bg-project-bg xl:h-[902px] py-12 md:py-14 lg:pt-[99px] lg:pb-[121.5px] lg:project-bg-set bg-hero-bg-set' id='projects'>
-            <div className='container relative'>
-                <div className="absolute xl:top-[-4.5%] lg:-top-[3%] lg:left-[33.5%] md:top-[-1%] md:left-[33%] left-[20%] top-[-0.5%]">
+            <div className='container'>
                          <img
                                         src="/assets/images/webp/heading-black-line.webp"
                                       alt="black-line"
-                                     className="lg:w-[398px] lg: md:w-[270px] w-[220px]"
+                                     className="lg:w-[398px] md:w-[344px] w-[220px] mx-auto -mb-11 md:-mb-16 lg:-mb-[74px] pointer-events-none"
                                    />
-                           </div>
                                <Heading
                                   text={'Projects'}
                                  classStyle={'lg:!pb-2 text-center !text-black'}
