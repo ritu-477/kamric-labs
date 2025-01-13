@@ -17,7 +17,7 @@ const BackToTop = () => {
         });
     };
     return (
-        <div>
+        <div className="container max-w-[1920px]">
             {isVisible && (
                 <button
                     onClick={scrollToTop}
