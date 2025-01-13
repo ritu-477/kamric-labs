@@ -9,7 +9,7 @@ const Footer = () => {
                 <a href="/"><img src="/assets/images/webp/footer-logo.webp" alt="footer-logo" className='lg:max-w-[255px] max-w-[210px] mx-auto xl:pb-[69px] lg:pb-14 pb-9' /></a>
                 <div className='flex items-center md:gap-6 gap-4 justify-center pb-4'>
                     {SOCIAL_LINKS.map((obj, index) => (
-                        <div className='flex items-center justify-center hover:scale-110 duration-300 ease-linear'>
+                        <div className='size-[35px] bg-white rounded-full flex items-center justify-center hover:scale-110 duration-300 ease-linear'>
                             <a
                                 key={index}
                                 href={obj.link}

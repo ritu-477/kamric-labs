@@ -2,7 +2,7 @@ import { FacebookIcon, InstagramIcon, TwitterIcon, YoutubeIcon, SmartContract, W
 
 export const NAV_DATA_LIST = [
     { data: 'Home', link :'#home' },
-    { data: 'Services', link: '#services' },
+    { data: 'Services', link: '#service' },
     { data: 'Projects', link :'#projects' },
     { data: 'About', link :'#about' },
 ];
@@ -104,17 +104,17 @@ export const SERVICES_CARDS_DATA = [
 
 export const WHO_KARMIC_DATA = [
     {
-        src: "/assets/images/webp/digital-art.webp",
+        image: "/assets/images/webp/digital-art.webp",
         alt: "digital",
     },
 
     {
-        src: "/assets/images/webp/collection-art.webp",
+        image: "/assets/images/webp/collection-art.webp",
         alt: "collection",
     },
 
     {
-        src: "/assets/images/webp/tokyo-ten.webp",
+        image: "/assets/images/webp/tokyo-ten.webp",
         alt: "tokyo",
     },
 ];
@@ -164,21 +164,21 @@ export const PROJECTS_LISTS = [
 
 export const VALUES_CARDS_DATA = [
     {
-        circle: "/assets/images/svg/white-circle.svg",
+        image: "/assets/images/svg/white-circle.svg",
         icon: <Peoples/>,
         title: "W3",
         description: "Not your average degens. Karmic is lead by a team of Industry professionals with extensive backgrounds in web3 and web2. We are actively involved in all that we do. Boots on the ground. We know the ins and outs of the space, because we are building it.",
     },
 
     {
-        circle: "/assets/images/svg/white-circle.svg",
+        image: "/assets/images/svg/white-circle.svg",
         icon: <Blockchain/>,
         title: "Blockchain Agnostic",
         description: "Our team of seasoned developers will help you to launch your project on the network of your choosing- be it ethereum, solana, polygon, etc..",
     },
 
     {
-        circle: "/assets/images/svg/white-circle.svg",
+        image: "/assets/images/svg/white-circle.svg",
         icon: <Trust/>,
         title: "Trust",
         description: "Trustless and results driven development backed by a portfolio of success. You're the captain of the ship, and the keys are always in your hands.",

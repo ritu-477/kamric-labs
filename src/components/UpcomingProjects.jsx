@@ -48,7 +48,7 @@ const UpcomingProjects = () => {
                         </div>
                     ))}
                 </div>
-                <PrimaryButton classStyle={'md:mt-12 mt-8 text-white transition-all duration-700 ease-in-out hover:bg-white hover:text-dark-black border border-white'} />
+                <PrimaryButton classStyle={'md:mt-12 mt-8 text-white !font-medium transition-all duration-700 ease-in-out hover:bg-white hover:text-dark-black border border-white'} />
             </div>
         </div>
     );

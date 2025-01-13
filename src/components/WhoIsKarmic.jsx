@@ -33,8 +33,8 @@ const WhoIsKarmic = () => {
                             width={369}
                             height={223}
                             key={index}
-                            className='max-w-[369px] object-cover max-xl:max-w-[300px] max-lg:max-w-[329px] rounded-lg border border-border-white shadow-shadow-xl hover:border-transparent transition-all duration-500'
-                            src={image.src}
+                            className='max-w-[369px] object-cover max-xl:max-w-[300px] max-lg:max-w-[329px] rounded-lg border pointer-events-none border-border-white shadow-shadow-xl hover:border-transparent transition-all duration-500'
+                            src={image.image}
                             alt={image.alt}
                         />
                     ))}
